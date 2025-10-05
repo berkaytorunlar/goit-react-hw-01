@@ -1,4 +1,4 @@
-import css from './friend.module.css';
+import css from './Friend.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (

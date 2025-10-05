@@ -1,5 +1,5 @@
 import css from './Transaction.module.css';
-//import css from './Transaction.module.css1';
+//import css from './Transcation.module.css1';
 function Transactions({items}){
     return (
         <table className={css.table}>

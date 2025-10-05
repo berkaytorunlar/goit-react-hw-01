@@ -1,44 +1,54 @@
-ul,li{
+ul,
+li {
   margin: 0;
   padding: 0;
 }
 .profile {
   width: 650px;
-  border: 1px solid black;
+  border: 1px solid gray;
   border-radius: 8px;
   margin: 30px auto;
   text-align: center;
   color: gray;
   overflow: hidden;
 }
-.profileImg{
+
+.profileh1 {
+  color: black;
+}
+
+.bottomh2 {
+  color: gray;
+}
+.profileImg {
   width: 250px;
   height: 250px;
   position: relative;
   background-color: black;
   border-radius: 50%;
+  margin-top: 20px;
 }
-.socialList{
+
+.socialList {
   display: flex;
   justify-content: space-between;
   background-color: lightgray;
   color: black;
-
 }
-.socialList li{
+.socialList li {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: 1px solid black;
+  border: 1px solid gray;
   width: calc(100% / 3);
   padding: 20px 0;
 }
-.listName{
-  font-size: 20px;
-  font-weight: 900;
+.listName {
+  font-size: 30px;
+  font-weight: 470;
 }
 
-span{
-  font-size: 16px;
+span {
+  font-size: 30px;
   font-weight: 500;
 }

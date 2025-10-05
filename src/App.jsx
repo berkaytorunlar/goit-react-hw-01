@@ -1,10 +1,10 @@
-import Profile from "./components/Profile/Profile.jsx";
-import FriendList from "./components/FriendList/FriendList.jsx";
-import TransactionHistory from "./components/TransactionHistory/Transaction.jsx";
+import Profile from "./components/Profile/Profile";
+import FriendList from "./components/FriendList/FriendList";
+import TransactionHistory from "./components/TransactionHistory/Transaction";
 
 import userData from "./userData.json";
 import friendData from "./friendData.json";
-import transactions from './transactionData.json';
+import transactions from "./transaction.json";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <FriendList friends={friendData} />
       <TransactionHistory items={transactions} />
     </>
-  )
+  );
 }
 
 export default App;
